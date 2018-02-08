@@ -39,6 +39,10 @@ pip install -r requirements.txt
 #查看安装的django版本
 python -m django --version
 
+#create a project named mysite
+django-admin startproject mysite
+
+
 # create mysql table
 python manage.py migrate
 
